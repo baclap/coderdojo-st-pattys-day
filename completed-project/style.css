@@ -1,0 +1,91 @@
+body {
+    margin: 100px 50px;
+    background: lightyellow;
+    font-family: sans-serif;
+    color: forestgreen;
+    text-align: center;
+}
+
+h1 {
+    font-style: italic;
+}
+
+h2 {
+    color: tomato;
+}
+
+h3 {
+    color: dodgerblue;
+}
+
+#clover-wrap {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#clover-leaf-top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(-45deg, darkgreen 5%, yellowgreen);
+    border-radius: 100% 70% 0 70%;
+    width: 150px;
+    height: 150px;
+}
+
+#clover-leaf-top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(45deg, darkgreen 5%, yellowgreen);
+    border-radius: 70% 100% 70% 0;
+    width: 150px;
+    height: 150px;
+}
+
+#clover-leaf-bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(225deg, darkgreen 5%, yellowgreen);
+    border-radius: 70% 0 70% 100%;
+    width: 150px;
+    height: 150px;
+}
+
+#clover-leaf-bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(135deg, darkgreen 5%, yellowgreen);
+    border-radius: 0 70% 100% 70%;
+    width: 150px;
+    height: 150px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg) scale(1) translateY(0);
+    }
+    25% {
+        transform: rotate(90deg) scale(1.2) translateX(-50px) translateY(50px);
+    }
+    50% {
+        transform: rotate(180deg) scale(1.4) translateX(0) translateY(0);
+    }
+    75% {
+        transform: rotate(270deg) scale(1.2) translateX(50px) translateY(-50px);
+    }
+    100% {
+        transform: rotate(360deg) scale(1) translateX(0) translateY(0);
+    }
+}
+
+#clover-wrap:hover {
+    animation-name: spin;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
