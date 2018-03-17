@@ -1,0 +1,58 @@
+body {
+    margin: 50px;
+}
+
+h1 {
+    color: dodgerblue;
+}
+
+h2 {
+    color: tomato;
+}
+
+#clover-wrap {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#clover-leaf-top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: red;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+#clover-leaf-top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: blue;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+#clover-leaf-bottom-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: green;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+#clover-leaf-bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: yellow;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}

@@ -1,0 +1,42 @@
+body {
+    margin: 50px;
+}
+
+h1 {
+    color: dodgerblue;
+}
+
+h2 {
+    color: tomato;
+}
+
+#clover-wrap {
+}
+
+#clover-leaf-top-left {
+    background: red;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+#clover-leaf-top-right {
+    background: blue;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+#clover-leaf-bottom-left {
+    background: green;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+#clover-leaf-bottom-right {
+    background: yellow;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
